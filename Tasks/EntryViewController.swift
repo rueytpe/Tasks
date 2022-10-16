@@ -2,8 +2,6 @@
 //  EntryViewController.swift
 //  Tasks
 //
-//  Created by Lu, Chia-Ruey on 9/25/22.
-//
 
 import UIKit
 

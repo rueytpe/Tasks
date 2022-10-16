@@ -2,9 +2,7 @@
 //  ViewController.swift
 //  Tasks
 //
-//  Created by Lu, Chia-Ruey on 9/25/22.
-//
-//  35.05
+//  17:15
 
 import UIKit
 
@@ -41,7 +39,7 @@ class ViewController: UIViewController {
         }
         
         for x in 0..<count {
-            
+            var temp = "task_\(x+1)"
             if let task = UserDefaults().value(forKey: "task_\(x+1)") as? String {
                 tasks.append(task)
             }
@@ -72,6 +70,11 @@ extension ViewController: UITableViewDelegate {
         vc.title = "New Task"
         vc.task = tasks[indexPath.row]
         vc.currentPosition = indexPath.row
+        vc.update = {
+            DispatchQueue.main.async {
+                self.updateTasks()
+            }
+        }
 
         navigationController?.pushViewController(vc, animated: true)
 
