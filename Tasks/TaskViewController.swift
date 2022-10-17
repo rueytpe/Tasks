@@ -41,12 +41,12 @@ class TaskViewController: UIViewController {
             return
         }
 
-        var newkey = "task_" + positionLabel.text! ;
-        UserDefaults().set(nil, forKey: newkey)
-
-        let intPosition = Int(positionLabel.text!)!
+        let intPosition = Int(positionLabel.text!)
         
-        for x in intPosition..<count {
+        var newkey = "task_" + String(intPosition! + 1);
+        UserDefaults().set(nil, forKey: newkey)
+        
+        for x in intPosition!..<count {
 
             if let task = UserDefaults().value(forKey: "task_\(x+2)") as? String {
                 UserDefaults().set(task, forKey: "task_\(x+1)")

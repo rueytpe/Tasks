@@ -200,7 +200,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D2929CD5-CEC6-49F3-A1C9-2961FB3194E4"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tasks/EntryViewController.swift"
@@ -254,10 +254,42 @@
             filePath = "Tasks/TaskViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "deleteTask()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8A392830-8A62-4E91-80D8-518D7F236A66 - 3107bcb4fefac5e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tasks.TaskViewController.deleteTask() -&gt; ()"
+                  moduleName = "Tasks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/clu3/workspace/swift/tasks/Tasks/Tasks/TaskViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1611">
+               </Location>
+               <Location
+                  uuid = "8A392830-8A62-4E91-80D8-518D7F236A66 - 3107bcb4fefac5e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tasks.TaskViewController.deleteTask() -&gt; ()"
+                  moduleName = "Tasks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/clu3/workspace/swift/tasks/Tasks/Tasks/TaskViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1735">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
